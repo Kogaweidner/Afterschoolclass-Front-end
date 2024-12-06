@@ -18,10 +18,7 @@
 
     <div id="app">
         <header>
-            <header style="display: flex; align-items: center; padding: 10px;">
-                <a href="/">
-                    <img src="images/logo.png" alt="Logo" style="height: 100px;">
-                </a>                
+            <h1 v-text="sitename"></h1>
             <div>
                 <input type="text" v-model="searchQuery" placeholder="Search products..." />
                 <button @click="searchProducts">Search</button>
