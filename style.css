@@ -5,7 +5,7 @@
 
 body {
   height: 95vh;
-  background: #d000ff;
+  background: #FF6F61; /* Soft coral */
   font-family: sans-serif;
   text-align: center;
   color: white;
@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  background: #d000ff;
+  background: #FF6F61; /* Soft coral */
   padding: 2em 0;
 }
 
@@ -32,7 +32,7 @@ header {
 
 .box , .ifElseStatement {
   padding: 1em;
-  background-color: #1e272e;
+  background-color: #2F4F4F; /* Dark slate gray */
   border-radius: 10px;
 }
 
@@ -43,27 +43,28 @@ header {
 }
 
 .left {
-  background: #7700ff;
+  background: #FF8C00; /* Dark orange */
   padding: 3em 0;
-  flex: 1  1 100px;
+  flex: 1 1 100px;
 }
 
 main , .ifElseStatement {
-  background: #3c40c6;
+  background: #4682B4; /* Steel blue */
   padding: 3em 0;
   flex: 5 5 150px;
 }
 
 .right {
-  background-color: #3c40c6;
+  background-color: #4682B4; /* Same as .main (Steel blue) */
   padding: 3em 0;
   flex: 1 1 100px;
 }
 
 footer {
-  background: #3c40c6;
+  background: #4682B4; /* Steel blue */
   padding: 3em 0;
 }
+
 button {
   padding: 10px 20px;
   font-size: 16px;
