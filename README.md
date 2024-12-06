@@ -1,2 +1,2 @@
-# PROJECT-CST3145-CW2 AWS Express Backend
+# PROJECT-CST3144-CW Frontend
 
