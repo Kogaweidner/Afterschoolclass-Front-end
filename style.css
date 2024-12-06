@@ -5,7 +5,7 @@
 
 body {
   height: 95vh;
-  background: #ffffff;
+  background: #d000ff;
   font-family: sans-serif;
   text-align: center;
   color: white;
@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  background: #ffffff;
+  background: #d000ff;
   padding: 2em 0;
 }
 
@@ -43,25 +43,25 @@ header {
 }
 
 .left {
-  background: #ffffff;
+  background: #7700ff;
   padding: 3em 0;
   flex: 1  1 100px;
 }
 
 main , .ifElseStatement {
-  background: #ffffff;
+  background: #3c40c6;
   padding: 3em 0;
   flex: 5 5 150px;
 }
 
 .right {
-  background-color: #ffffff;
+  background-color: #3c40c6;
   padding: 3em 0;
   flex: 1 1 100px;
 }
 
 footer {
-  background: #ffffff;
+  background: #3c40c6;
   padding: 3em 0;
 }
 button {
