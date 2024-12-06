@@ -43,25 +43,25 @@ header {
 }
 
 .left {
-  background: #7700ff;
+  background: #ffffff;
   padding: 3em 0;
   flex: 1  1 100px;
 }
 
 main , .ifElseStatement {
-  background: #3c40c6;
+  background: #ffffff;
   padding: 3em 0;
   flex: 5 5 150px;
 }
 
 .right {
-  background-color: #3c40c6;
+  background-color: #ffffff;
   padding: 3em 0;
   flex: 1 1 100px;
 }
 
 footer {
-  background: #3c40c6;
+  background: #ffffff;
   padding: 3em 0;
 }
 button {
