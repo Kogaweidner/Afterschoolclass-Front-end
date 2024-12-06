@@ -43,19 +43,19 @@ header {
 }
 
 .left {
-  background: #FF8C00; /* Dark orange */
+  background: #FF6F61; /* Dark orange */
   padding: 3em 0;
   flex: 1 1 100px;
 }
 
 main , .ifElseStatement {
-  background: #4682B4; /* Steel blue */
+  background: #FF6F61; /* Steel blue */
   padding: 3em 0;
   flex: 5 5 150px;
 }
 
 .right {
-  background-color: #4682B4; /* Same as .main (Steel blue) */
+  background-color: #FF6F61; /* Same as .main (Steel blue) */
   padding: 3em 0;
   flex: 1 1 100px;
 }
