@@ -118,7 +118,7 @@
             },
             created: function () { // this function will be run automatically
                 // when creating the Vue instance
-                fetch('https://afterschoolclass-backend-1.onrender.com/collection/Lessons').then(
+                fetch('http://localhost:3000/collection/Lessons').then(
                     function (response) {
                         response.json().then(
                             function (json) {
@@ -170,7 +170,7 @@
                             await this.updateProduct(this.products.find(p => p.id === id));
                         })
 
-                        const response = await fetch('https://afterschoolclass-backend-1.onrender.com/collection/Orders', {
+                        const response = await fetch('http://localhost:3000/collection/Orders', {
                             method: 'POST',
                             headers: {
                                 'Content-Type': 'application/json'
@@ -193,7 +193,7 @@
                     try {
                         _product = structuredClone(product)
                         delete _product._id
-                        const response = await fetch(`https://afterschoolclass-backend-1.onrender.com/collection/Lessons/${product._id}`, {
+                        const response = await fetch(`http://localhost:3000/collection/Lessons/${product._id}`, {
                             method: 'PUT',
                             headers: {
                                 'Content-Type': 'application/json'
