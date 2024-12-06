@@ -7,4 +7,4 @@ This Vue. js web application, created by Muhammad Daffa and hosted on Github, em
 
 - Github repository - [Vue.js app repository]( https://github.com/Kogaweidner/Afterschoolclass-Frontend)
 
-- Live Application - [Vue.js app on Github Pages]( [https://github.com/Kogaweidner/Afterschoolclass-Frontend](https://kogaweidner.github.io/Afterschoolclass-Frontend/))
+- Live Application - [Vue.js app on Github Pages](https://kogaweidner.github.io/Afterschoolclass-Frontend/)
